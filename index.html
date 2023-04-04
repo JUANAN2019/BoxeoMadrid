@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Boxeo Madrid</title>
+</head>
+
+<body>
+    <section class="cuerpo">
+        <header class="header">
+            <div class="primeraBarra">
+                <div class="fecha">
+                    <p id="fecha"></p>
+                </div>
+                <div class="iconitos">
+                    <div class="menu">
+                        <a href=""><img src="ImagenesProyecto2/menuHamburguesa.svg" alt=""></a>
+                    </div>
+                    <div class="face">
+                        <a href="https://www.facebook.com/espabox/"><img src="ImagenesProyecto2/facebook.svg"
+                                alt=""></a>
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/spaboxalbacete/?hl=es"><img
+                                src="ImagenesProyecto2/instagram.svg" alt=""></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="principalHead">
+                <div class="logo">
+                    <p><b>BOXEO</b></p>
+                    <img src="ImagenesProyecto2/guantesboxeo.jpeg" alt="Guantes boxeo"
+                        style="height: 60px; width: 60px;">
+                    <p><b>MADRID</b></p>
+                </div>
+                <div class="publicabecera">
+                    <div class="p1 white">
+                        <p>SECCION APUESTAS DE BOXEO</p>
+
+                    </div>
+                    <div class="img1">
+                        <img src="ImagenesProyecto2/box.jpg" alt="Boxeadores peleando">
+                    </div>
+                    <div class="p2 ">
+                        <p class="white">OTRA MANERA DE SEGUIR EL DEPORTE </p>
+                        <p class="yellow">APUESTA A TUS FAVORITOS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menuHead">
+                <div class="inicio">INICIO</div>
+                <div class="nacional">NACIONAL</div>
+                <div class="ranking">RANKING ESP</div>
+                <div class="internacional">INTERNACIONAL</div>
+                <div class="opinion">OPINION</div>
+                <div class="medios">TV-RADIO</div>
+                <div class="premios">PREMIOS ESPABOX</div>
+                <div class="guia">GUIA ESPABOX</div>
+                <div class="buscar">ICONO LUPA</div>
+            </div>
+        </header>
+        <main>
+            <div class="imagenRotar">
+                <img id="public" class="public" src="" alt="Imagenes de boxeadoras ">
+                <!-- imagenes de publicidad que cambian cada 5 segundos -->
+            </div>
+            <div class="fotos">
+                <div class="grande">
+                    <img id="g" class="g" src="ImagenesProyecto2/joanaYokasta.jpg" alt="Imagenes de boxeadoras ">
+                </div>
+                <div class="pequeña">
+                    <img id="fp1" class="p" src="ImagenesProyecto2/velada.jpg" alt="Imagenes de boxeadoras ">
+                    <img id="fp2" class="p" src="ImagenesProyecto2/JVring.jpg" alt="Imagenes de boxeadoras ">
+                    <img id="fp3" class="p" src="ImagenesProyecto2/lauraFraile.jpg" alt="Imagenes de boxeadoras ">
+                    <img id="fp4" class="p" src="ImagenesProyecto2/lauraPosando.jpg" alt="Imagenes de boxeadoras ">
+                </div>
+            </div>
+            <div class="publi2">
+                <!-- imagenes de publicidad que cambian cada 5 segundos -->
+            </div>
+            <div class="main2">
+                <div class="principal">
+                    <div class="noticiasDestacadas">
+                        <div class="imagen1"></div>
+                        <div class="imagen2"></div>
+                    </div>
+                    <div class="multimedia">
+                        <div class="img1"></div>
+                        <div class="img2"></div>
+                        <div class="img3"></div>
+                    </div>
+                </div>
+                <div class="secundario">
+                    <div class="publicidadainter"></div>
+                    <div class="comentarios">
+                        <div class="com1"></div>
+                        <div class="com2"></div>
+                        <div class="com3"></div>
+                        <div class="com4"></div>
+
+                    </div>
+                </div>
+                <div class="formulario">
+                    <p class="textF">Si desea recibir nuestra revista mensual rellene el formulario</p>
+                    <form action="" class="form" method="post">
+                        <fieldset>
+                            <legend>Formulario</legend>
+                            <form name="formulario" id="formulario" action="http://localhost" method="get">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" name="nombre" id="nombre" />
+                                <label for="apellidos">Apellidos:</label>
+                                <input type="text" name="apellidos" id="apellidos" />
+                                <label for="edad">Edad:</label>
+                                <input name="edad" type="number" id="edad" maxlength="3" />
+                                <label for="nif">NIF:</label>
+                                <input name="nif" type="text" id="nif" />
+                                <label for="email">E-mail:</label>
+                                <input name="email" type="text" id="email" />
+                                <label for="provincia">Provincia:</label>
+                                <select name="provincia" id="provincia">
+                                    <option value="0" selected="selected">Seleccione Provincia</option>
+                                    <option value="M">Madrid</option>
+                                    <option value="Ba">Barcelona</option>
+                                    <option value="S">Sevilla</option>
+                                    <option value="Bi">Bilbao</option>
+                                </select>
+                                <label for="fechaf">Fecha Nacimiento:</label>
+                                <input name="fechaf" type="text" id="fechaf" />
+                                <label for="telefono">Teléfono:</label>
+                                <input name="telefono" type="text" id="telefono" maxlength="9" />
+                                <label for="hora">Hora de envio:</label>
+                                <input name="hora" type="text" id="hora" />
+                                <input type="reset" name="limpiar" id="button" value="Limpiar" />
+                                <input type="submit" name="enviar" id="enviar" value="Enviar" />
+                                <div id="errores"></div>
+                                <div id="intentos"></div>
+                                <div id="avisos"></div>
+                            </form>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="logo">
+                <p><b>BOXEO</b></p>
+                <p><b>MADRID</b></p>
+                <img class="imgfoot"src="ImagenesProyecto2/guantesboxeo.jpeg" alt="Guantes boxeo" style="height: 60px; width: 60px;">
+                
+                
+            </div>
+            <div class="nosotros">
+                <h2>QUIENES SOMOS</h2>
+                <p>Desde 2010, MADRID BOXEO, la pagina de los profesionales, informando del boxeo nacional e internacional</p>
+                <a href=""><p>Este es el equipo de redaccion</p></a>
+                <p>Contactanos: <a href="">info@boxeomadrid.com</a></p>
+            </div>
+            <div class="siguenos">
+                <h2>SIGUENOS</h2>
+                <div class="footico">
+                    <div class="face">
+                        <a href="https://www.facebook.com/espabox/"><img src="ImagenesProyecto2/facebook.svg"
+                                alt=""></a>
+                    </div>
+                    <div class="insta">
+                        <a href="https://www.instagram.com/spaboxalbacete/?hl=es"><img
+                                src="ImagenesProyecto2/instagram.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="js.js"></script>
+</body>
+
+</html>
